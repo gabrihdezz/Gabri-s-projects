@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1674258516 source:c:\users\gabriel hernández\dropbox\universidad\asignaturas erasmus\object oriented programming in c++\project\src\enrolledstudents.cpp
+	"EnrolledStudents.h"
+
+1674258995 c:\users\gabriel hernández\dropbox\universidad\asignaturas erasmus\object oriented programming in c++\project\include\enrolledstudents.h
+
+1674329838 source:c:\users\gabriel hernández\dropbox\universidad\asignaturas erasmus\object oriented programming in c++\project\src\course.cpp
+	<iostream>
+	"Course.h"
+	<string>
+
+1674323583 c:\users\gabriel hernández\dropbox\universidad\asignaturas erasmus\object oriented programming in c++\project\include\course.h
+	<string>
+
