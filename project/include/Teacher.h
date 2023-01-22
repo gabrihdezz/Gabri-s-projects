@@ -6,7 +6,7 @@
 #include <set>
 using namespace std;
 
-class Teacher : public Parent {
+class Teacher : public Person {
     private:
         set<Course> courses;
     public:
