@@ -5,8 +5,7 @@
 #include <algorithm>
 #include <functional>
 
-Student::Student(int id, string name) :
-    Person(id, name) {}
+Student::Student(int id, string name) : Person(id, name) {}
 
 int Student::getId() {
     return id;
@@ -26,7 +25,8 @@ const bool Student::unenrollCourse(int id) {
     if(result != courses.end()) {
         courses.erase(*result);
         return true;
-    } else {
+    };
+    else {
         return false;
     }
 

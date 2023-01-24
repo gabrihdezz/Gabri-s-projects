@@ -1,5 +1,6 @@
 #include "EnrolledStudents.h"
 #include "Student.h"
+#include <algorithm>
 using namespace std;
 
 
@@ -17,7 +18,7 @@ bool EnrolledStudents::removeStudent(int id){
 
 Student EnrolledStudents::getStudent(int id){
     set<Student>::iterator result = find_if(students.begin(), students.end(),
-                                              find_by_id(id))
+                                              find_by_id(id));
     if(result != students.end()) {
         return *result;
     }

@@ -1,7 +1,8 @@
 #include "Teacher.h"
+#include "Person.h"
+#include <algorithm>
 
-T::Teacher(int id, string name) :
-    Person(id, name) {}
+Teacher::Teacher(int id, string name) : Person(id, name) {}
 
 int Teacher::getId() {
     return id;

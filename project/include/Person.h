@@ -6,12 +6,11 @@ using namespace std;
 
 class Person
 {
-    protected:
         int id;
         string name;
     public:
-        Person();
-        virtual getName();
+        Person(int id, string name);
+        virtual string getName();
         virtual ~Person();
 
 
